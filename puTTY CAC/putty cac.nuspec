@@ -18,6 +18,7 @@
     <tags>putty cac admin smartcard pkcs11 common access card</tags>
     <summary>PuTTY-CAC is an open-source SSH client for Windows that supports smartcard authentication</summary>
     <description>PuTTY-CAC is an open-source SSH client for Windows that supports smartcard authentication</description>
+    <releaseNotes>https://github.com/NoMoreFood/putty-cac/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
