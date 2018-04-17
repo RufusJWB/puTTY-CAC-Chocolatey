@@ -3,7 +3,7 @@
   <metadata>
     <id>putty-cac</id>
     <version>0.70-update40</version>
-	<packageSourceUrl>https://github.com/RufusJWB/puTTY-CAC-Chocolatey</packageSourceUrl>
+    <packageSourceUrl>https://github.com/RufusJWB/puTTY-CAC-Chocolatey</packageSourceUrl>
     <owners>Rufus J.W. Buschart</owners>
     <title>puTTY CAC (Install)</title>
     <authors>Robert de Bath, Joris van Rantwijk, Delian Delchev, Andreas Schultz, Jeroen Massar, Wez Furlong, Nicolas Barry, Justin Bradford, Ben Harris, Malcolm Smith, Ahmad Khalifa, Markus Kuhn, Colin Watson, Christopher Staite, Daniel Risacher, Joshua Dantzler, Bryan Berns</authors>
