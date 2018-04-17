@@ -1,0 +1,5 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+I downloaded the binaries from https://github.com/NoMoreFood/putty-cac/releases and run locally a checksum generation
