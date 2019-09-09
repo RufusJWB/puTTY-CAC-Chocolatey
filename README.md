@@ -9,7 +9,7 @@ Chocolatey package specification for puTTY CAC
   * `choco pack`
 * Test the package
   * Testing should probably be done on a Virtual Machine
-  * In your package directory, use: `choco install putty-cac -s .` (`choco upgrade putty-cac -s .` in case it is already installed)
+  * In your package directory, use: `choco install putty-cac -s .` (or `choco upgrade putty-cac -s .` in case it is already installed)
 * Push the package to the Chocolatey community package repository:
   * Copy the API key from your Chocolatey account.
   * choco apikey -k [API_KEY_HERE] -source https://push.chocolatey.org/
