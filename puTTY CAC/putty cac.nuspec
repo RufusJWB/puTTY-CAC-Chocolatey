@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>putty-cac</id>
-    <version>0.74</version>
+    <version>0.75-u1</version>
     <packageSourceUrl>https://github.com/RufusJWB/puTTY-CAC-Chocolatey</packageSourceUrl>
     <owners>Rufus J.W. Buschart</owners>
     <title>puTTY CAC (Install)</title>
