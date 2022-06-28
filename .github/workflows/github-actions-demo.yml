@@ -22,13 +22,13 @@ jobs:
         name: Checkout
         uses: actions/checkout@v3
       -
-        name: Test powershell
-        shell: pwsh
-        run: |
-          echo "Working Path: ${Env:GITHUB_WORKSPACE}"
-          ls
-      -
-        name: Choco help
+      #   name: Test powershell
+      #   shell: pwsh
+      #   run: |
+      #     echo "Working Path: ${Env:GITHUB_WORKSPACE}"
+      #     ls
+      # -
+        name: Choco pack
         uses: crazy-max/ghaction-chocolatey@v2
         with:
           args: pack $GITHUB_WORKSPACE\\puTTY CAC\\putty cac.nuspec
