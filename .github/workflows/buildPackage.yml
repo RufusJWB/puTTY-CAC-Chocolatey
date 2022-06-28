@@ -21,12 +21,12 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v3
-      -
-        name: Test powershell
-        shell: pwsh
-        run: |
-          ls '${{github.workspace}}\puTTY CAC\'
-          cat '${{github.workspace}}\puTTY CAC\putty cac.nuspec'
+      # -
+      #   name: Test powershell
+      #   shell: pwsh
+      #   run: |
+      #     ls '${{github.workspace}}\puTTY CAC\'
+      #     cat '${{github.workspace}}\puTTY CAC\putty cac.nuspec'
       -
         name: Choco pack
         uses: crazy-max/ghaction-chocolatey@v2
