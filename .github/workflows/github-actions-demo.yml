@@ -41,4 +41,4 @@ jobs:
         name: Choco push
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push -s https://push.chocolatey.org/
+          args: push -v -d -s https://push.chocolatey.org/
