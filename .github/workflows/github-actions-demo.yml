@@ -33,12 +33,7 @@ jobs:
         with:
           args: pack "${{github.workspace}}\puTTY CAC\putty cac.nuspec"
       -
-        name: Choco api key
-        uses: crazy-max/ghaction-chocolatey@v2
-        with:
-          args: apikey -k [${{secrets.CHOCOAPIKEY}}] -source https://push.chocolatey.org/
-      -
         name: Choco push
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push -v -d -s https://push.chocolatey.org/
+          args: push -v -d -s https://push.chocolatey.org/ -k="'${{secrets.CHOCOAPIKEY}}'"
