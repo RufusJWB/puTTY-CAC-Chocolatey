@@ -31,4 +31,4 @@ jobs:
         name: Choco pack
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack $GITHUB_WORKSPACE\\puTTY CAC\\putty cac.nuspec
+          args: pack '${Env:GITHUB_WORKSPACE}\puTTY CAC\putty cac.nuspec'
