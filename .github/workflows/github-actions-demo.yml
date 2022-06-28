@@ -15,7 +15,7 @@ jobs:
   #       run: |
   #         ls ${{ github.workspace }}
   #     - run: echo "🍏 This job's status is ${{ job.status }}."
-  Pack and publish:
+  PackAndPublish:
     runs-on: windows-latest
     steps:
       -
